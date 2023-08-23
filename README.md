@@ -28,4 +28,4 @@ Sinta-se à vontade para acompanhar meu progresso e fornecer feedback ou sugest�
 - [Link para a plataforma da DIO](https://www.digitalinnovation.one/)
 - [Link para o site do Santander](https://www.santander.com.br/)
 
-Vamos aprender e evoluir juntos durante este bootcamp!
+Vamos aprender e evoluir juntos durante este bootcamp! 🚀
