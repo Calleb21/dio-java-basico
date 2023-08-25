@@ -1,4 +1,4 @@
-package br.com.calleb;
+package br.com.calleb.Exemplos;
 
 /**
  * @author Calleb

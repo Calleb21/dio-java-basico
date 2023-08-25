@@ -1,4 +1,4 @@
-package br.com.calleb;
+package br.com.calleb.Exemplos;
 
 /**
  * @author Calleb
@@ -116,12 +116,9 @@ public class Operadores {
 
         if (condicao1 && condicao2) {
             System.out.println("As condições são verdadeiras");
-        }
-
-        if (condicao1 || condicao2) {
+        } else if (condicao1 || condicao2) {
             System.out.println("Uma das condições são verdadeiras");
         }
-        
         System.out.println("Fim");
     }
 }
