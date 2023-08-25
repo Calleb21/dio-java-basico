@@ -4,25 +4,33 @@ package br.com.calleb.atividades;
  * @author Calleb
  */
 public class SmartTv {
-    boolean ligada = false;
-    int canal = 1;
-    int volume = 25;
+    private boolean ligada;
+    private int canal;
+    private int volume;
+
+    public SmartTv(boolean ligada, int canal, int volume) {
+        this.ligada = ligada;
+        this.canal = canal;
+        this.volume = volume;
+    }
 
     public void mudarCanal(int novoCanal) {
         canal = novoCanal;
-        System.out.println("Você está assistindo o canal: " + canal);
+        if (canal >= 0 && canal <= 500) {
+            System.out.println("Você está assistindo o canal: " + canal);
+        } else {
+            System.out.println("Canal inválido");
+        }
     }
 
-    public void aumentaVolume() {
-        volume++;
-        System.out.println("Aumentando o volume para: " + volume);
+    public void nivelVolume(int novoVolume) {
+        volume = novoVolume;
+        if (volume >= 0 && volume <= 100) {
+            System.out.println("O volume é: " + volume);
+        } else {
+            System.out.println("Volume inválido");
+        }
     }
-
-    public void diminuirVolume() {
-        volume--;
-        System.out.println("Diminuindo o volume para: " + volume);
-    }
-
 
     public void ligar() {
         ligada = true;
@@ -32,5 +40,29 @@ public class SmartTv {
     public void desligar() {
         ligada = false;
         System.out.println("Desligando a TV");
+    }
+
+    public boolean isLigada() {
+        return ligada;
+    }
+
+    public void setLigada(boolean ligada) {
+        this.ligada = ligada;
+    }
+
+    public int getCanal() {
+        return canal;
+    }
+
+    public void setCanal(int canal) {
+        this.canal = canal;
+    }
+
+    public int getVolume() {
+        return volume;
+    }
+
+    public void setVolume(int volume) {
+        this.volume = volume;
     }
 }
