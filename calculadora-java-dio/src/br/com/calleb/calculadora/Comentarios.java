@@ -5,7 +5,7 @@ public class Comentarios {
     public static void main(String[] args) {
 
     }
-    
+
     /*
      * Este método foi elaborado as pressas
      * por isso eu abrevei o nome das variáveis
