@@ -12,7 +12,7 @@ public class ContaTermianl {
 
         System.out.println("Por favor digite o nome do cliente: ");
         String nomeCliente = sc.nextLine();
-        
+
         System.out.println("Po favor digite o nome da Agencia: ");
         String nomeAgencia = sc.nextLine();
 
@@ -22,7 +22,9 @@ public class ContaTermianl {
         System.out.println("Por favor digite o saldo: ");
         double saldo = sc.nextDouble();
 
-        System.out.println("Olá " + nomeCliente + ", obrigado por criar sua conta " + numeroConta +" em nosso banco, sua agência é " + nomeAgencia + " e seu saldo de R$:" + saldo + " já está disponível para saque.");
+        System.out.println("Olá " + nomeCliente + ", obrigado por criar sua conta " + numeroConta
+                + " em nosso banco, sua agência é " + nomeAgencia + " e seu saldo de R$:" + saldo
+                + " já está disponível para saque.");
 
         sc.close();
     }
