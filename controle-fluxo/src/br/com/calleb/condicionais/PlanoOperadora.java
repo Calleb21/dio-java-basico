@@ -3,7 +3,7 @@ package br.com.calleb.condicionais;
 /**
  * @author Calleb
  */
-public class PlnoOperadora {
+public class PlanoOperadora {
 
     public static void main(String[] args) {
         String plano = "M"; // M / T
