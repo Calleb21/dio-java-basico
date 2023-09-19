@@ -1,5 +1,8 @@
-package br.com.calleb.Desafios.DesafioCofre;
+package br.com.calleb.desafios.desafioCofre;
 
-public class CofreFisico {
-    
+class CofreFisico extends Cofre {
+
+    public CofreFisico() {
+        super("Cofre Fisico", "Chave");
+    }
 }

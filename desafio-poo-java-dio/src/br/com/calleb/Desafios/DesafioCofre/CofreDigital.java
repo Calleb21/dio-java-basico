@@ -1,5 +1,15 @@
-package br.com.calleb.Desafios.DesafioCofre;
+package br.com.calleb.desafios.desafioCofre;
 
-public class CofreDigital {
-    
+class CofreDigital extends Cofre {
+
+    private int senha;
+
+    public CofreDigital(int senha) {
+        super("Cofre Digital", "Senha");
+        this.senha = senha;
+    }
+
+    public boolean validarSenha(int confirmacaoSenha) {
+        return confirmacaoSenha == this.senha;
+    }
 }

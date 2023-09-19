@@ -1,4 +1,4 @@
-package br.com.calleb.Desafios.DesafioContaBanco;
+package br.com.calleb.desafios.desafioContaBanco;
 
 import java.util.Scanner;
 
