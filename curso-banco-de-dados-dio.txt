@@ -1,0 +1,23 @@
+CREATE TABLE usuarios (
+  id int NOT NULL,
+  nome varchar(255) NOT NULL,
+  email VARCHAR(255) NOT NULL,
+  data_nascimento DATE NOT NULL,
+  endereco VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE destinos (
+  id int NOT NULL,
+  id_usuarios int,
+  descricao VARCHAR(255) NOT NULL
+);
+
+INSERT INTO destinos (id, id_usuarios, descricao) VALUES
+(1, 2, 'Praia Linda'),
+(2, 1, 'Praia Grande'),
+(3, 3, 'Ilha Bela');
+
+INSERT INTO usuarios (id, nome, email, data_nascimento, endereco) VALUES
+(1, 'test number 1', 'testone@gmail.com', '2004-04-11', 'Rua teste um, quadra teste um, numero 1'),
+(2, 'test number two', 'testtwo@gmail.com', '2002-03-02', 'Rua teste dois, quadra teste dois, numero 2'),
+(3, 'test number tree', 'testtree@gmail.com', '2005-10-23', 'Rua teste tres, quadra teste tres, numero 3');
